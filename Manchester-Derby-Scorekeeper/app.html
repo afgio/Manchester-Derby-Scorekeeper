@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="app.css">
+        <title>Manchester Derby Scorekeeper</title>
+        <link rel="icon" type="image/png" sizes="16x16"
+            href="C:\Users\15146\OneDrive\Desktop\Programming\The Web Developer Bootcamp\JS\ScoreKeeper_MyVersion\favicon-16x16.png">
+    </head>
+
+    <body>
+        <div id="outter-wrapper" class="wrapper">
+            <img src="C:\Users\15146\OneDrive\Desktop\Programming\The Web Developer Bootcamp\JS\ScoreKeeper_MyVersion\manchester_derby_main.webp"
+                alt="Manchester Derby Photo">
+            <div id="title">
+                <h2>Manchester Derby Scorekeeper</h2>
+            </div>
+            <div id="outter-score-wrapper" class="wrapper">
+                <div id="inner-score-wrapper-1" class="wrapper">
+                    <text id="city-score" class="score"></text><text id="to" class="score">to</text><text id="utd-score"
+                        class="score"></text>
+                </div>
+                <span id="directions">Use the button below to keep score</span>
+                <form id="point-limit-form">
+                    <label for="point-limit">Playing To</label>
+                    <select id="point-limit">
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                </form>
+                <div id="buttons">
+                    <button id="cityPlus1" type="button" class="button">City + 1</button>
+                    <button id="utdPlus1" type="button" class="button">United + 1</button>
+                    <button id="reset" type="reset" class="button">Reset</button>
+                </div>
+            </div>
+        </div>
+        <audio id="goal" src=""></audio>
+        <audio id='victory'
+            src="C:\Users\15146\OneDrive\Desktop\Programming\The Web Developer Bootcamp\JS\ScoreKeeper_MyVersion\mixkit-stadium-joy-shouting-crowd-3022.wav"></audio>
+        <script src="app.js"></script>
+    </body>
+
+</html>

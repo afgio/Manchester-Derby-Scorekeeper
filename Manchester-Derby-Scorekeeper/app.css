@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&display=swap');
+
+
+body {
+    background: rgb(74, 98, 152);
+    background: linear-gradient(90deg, rgba(74, 98, 152, 1) 31%, rgba(218, 41, 16, 1) 100%);
+    font-family: 'Roboto Slab', serif;
+}
+
+#outter-wrapper {
+    background-color: white;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    height: 565px;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    background-color: rgb(240, 248, 255);
+    border-radius: 10px;
+    box-shadow: 7px 13px 17px -6px rgba(0, 0, 0, 0.86);
+    -webkit-box-shadow: 7px 13px 17px -6px rgba(0, 0, 0, 0.86);
+    -moz-box-shadow: 7px 13px 17px -6px rgba(0, 0, 0, 0.86);
+}
+
+img {
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 300px;
+    width: 600px
+}
+
+#title {
+    width: 100%;
+    text-align: center;
+    border: 1px solid;
+}
+
+#outter-score-wrapper {
+    width: 100%;
+}
+
+#inner-score-wrapper-1 {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: #000 solid 1px;
+}
+
+#city-score,
+#utd-score {
+    font-size: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#directions {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+#point-limit-form {
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+#point-limit {
+    border-radius: 30px;
+    border: #5590c5 solid 2px;
+    width: 40px;
+    font-family: 'Roboto Slab', serif;
+    height: 25px;
+}
+
+#cityPlus1 {
+    flex-grow: 1;
+    background-color: #5590c5;
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+    border: 0px solid #000;
+    border-bottom-left-radius: 10px;
+}
+
+#cityPlus1:hover {
+    background-color: #729fcc;
+}
+
+#utdPlus1 {
+    flex-grow: 1;
+    background-color: #e32c2c;
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+    border: 0px solid #000;
+}
+
+#utdPlus1:hover {
+    background-color: #a94d4d;
+}
+
+#reset {
+    flex-grow: 1;
+    background-color: #da7426;
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+    border: 0px solid #000;
+    border-bottom-right-radius: 10px;
+    padding-left: 4px;
+}
+
+#reset:hover {
+    background-color: #cf864e;
+}
+
+
+#utdPlus1 {
+    flex-grow: 1;
+}
+
+#reset {
+    flex-grow: 1;
+}
+
+#buttons {
+    display: flex;
+    padding-top: 20px;
+}
+
+.button {
+    height: 60px;
+}
